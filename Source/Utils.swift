@@ -341,7 +341,7 @@ extension CGSize {
 #elseif os(macOS)
         return NSScreen.main?.frame.size ?? .zero
 #else
-        return return CGSize(width: 1000, height: 1000)
+        return CGSize(width: 1000, height: 1000)
 #endif
     }
 }
